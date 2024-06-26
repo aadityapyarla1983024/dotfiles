@@ -13,7 +13,7 @@ bind '"\e[B": history-search-forward'
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-HOST_NAME="aadityapyarla"
+HOST_NAME=$USER
 
 TODAY=$(date +"Today is %A, %d of %B")
 echo $TODAY
