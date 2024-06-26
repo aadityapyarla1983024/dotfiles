@@ -4,7 +4,7 @@ This is the best ever config for your Productivity.
 
 This makes your terminal look and feel like this :
 
-[photo](./terminal.png)
+![photo](./terminal.png)
 
 ##  Features
 
