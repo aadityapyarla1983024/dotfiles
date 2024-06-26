@@ -37,7 +37,7 @@ prompt_git() {
         && state=${state}^
     [ -n "$(git ls-files --others --exclude-standard )" ] \
         && state=${state}?
-    printf "${branch:-unknown}(${state})"
+    printf "@${branch:-unknown}(${state})"
 }
 
 txtred='\e[0;31m' # Red
