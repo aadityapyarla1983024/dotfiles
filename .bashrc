@@ -116,5 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
+source ~/.bash_aliases
+source ~/.bash_vcs
 source ~/.bash_profile
