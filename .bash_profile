@@ -18,8 +18,8 @@ HOST_NAME=$USER
 TODAY=$(date +"Today is %A, %d of %B")
 echo $TODAY
 
-curl -H "Accept-Language: en" wttr.in/?0FQ
-
+# curl -H "Accept-Language: en" wttr.in/?0FQ
+#Uncomment out the above line to get weather updates
 txtred='\e[0;31m' # Red
 txtgrn='\e[0;32m' # Green
 bldgrn='\e[1;32m' # Bold Green
@@ -40,8 +40,8 @@ PROMPT_COMMAND=print_before_the_prompt
 PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 PS1="${SPACE}$EMOJI >${SPACE}"
 
-fortune | cowsay -f tux
-
+# fortune | cowsay -f tux
+# Uncomment out the above line to make your terminal funny
 function mkcd()
 {
 	mkdir $1 && cd $1
