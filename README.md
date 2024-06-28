@@ -20,8 +20,15 @@ This makes your terminal look and feel like this :
 cd ~
 git clone https://github.com/aadityapyarla1983024/dotfiles.git
 ```
+
 > **Note:** Your changes or modifications made to .bashrc may be overwritten by the above command.
 
+
+> **Note:** Make sure to delete the .git folder to avoid git pormpt everywhere. Since if you not then it will give a prompt at every folder of the git repo located at your home folder.
+
+```sh
+rm -rf .git .gitignore .gitconfig
+```
 
 
 ## Thanks To
